@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OceanBay Hotel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="logo">OceanBay Hotel</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#book" class="book-btn">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero-section">
+    <div class="hero-content">
+        <section class="hero"></section>
+      <h1>Relax at the OceanBay Hotel</h1>
+      <p>Enjoy your perfect stay by the sea. Premium rooms, ocean views, and luxury service await.</p>
+      <a href="#book" class="cta-btn">Check Availability</a>
+      </section>
+    </div>
+  </header>
+
+  <!-- Rooms Section -->
+  <section id="rooms">
+    <h2 class="section-heading">Our Rooms</h2>
+    <div class="room-grid">
+      <div class="room-card">
+        <img src="C:\Users\Lenovo\Desktop\skillcraft_technology\SCT_WD_1\images\img3.jpg" alt="Room">
+        <h2>Deluxe Sea View</h2>
+        <p><h3>From ₹5,999/night</p>
+        <ul>
+          <li>Ocean-facing balcony</li>
+          <li>King Bed</li>
+          <li>AC, Wi-Fi, Smart TV</h3></li>
+        </ul>
+        <a href="#book" class="cta-btn">Book Now</a>
+      </div>
+      <!-- Add more room-cards similarly -->
+    </div>
+  </section>
+
+  <!-- Amenities Section -->
+  <section id="amenities">
+    <h2 class="section-heading">Amenities</h2>
+    <ul class="amenities-list">
+      
+      <li>🍽️ Restaurant</li>
+      <li>🌊 Private Beach</li>
+      <li>💆 Spa</li>
+      <li>🚗 Parking</li>
+      <li>📶 Free Wi-Fi</li>
+    </ul>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2 class="section-heading">Gallery</h2>
+    <div class="gallery-grid">
+      <img src="C:\Users\Lenovo\Desktop\skillcraft_technology\SCT_WD_1\images\img 4.jpg" />
+      <img src="C:\Users\Lenovo\Desktop\skillcraft_technology\SCT_WD_1\images\img5.jpg" />
+      
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-heading">Contact Us</h2>
+    <p>📍 OceanBay Hotel, Seaside Road, Goa, India</p>
+    <p>📞 +91 98765 43210</p>
+    <p>✉️ info@oceanbayhotel.com</p>
+    <iframe src="https://maps.google.com/maps?q=goa&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="300" style="border-radius: 8px; margin-top: 1rem;"></iframe>
+  </section>
+
+  <!-- Booking Section -->
+  <section id="book">
+    <h2 class="section-heading">Book Your Stay</h2>
+    <form id="bookingForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <select required>
+        <option value="">Room Type</option>
+        <option>Deluxe Sea View</option>
+        <option>Luxury Suite</option>
+        <option>Budget Room</option>
+      </select>
+      <input type="date" required>
+      <input type="date" required>
+      <input type="number" placeholder="No. of Guests" required>
+      <button type="submit" class="cta-btn">Confirm Booking</button>
+    </form>
+  </section>
+
+  <div id="confirmation">✅ Your booking is confirmed!</div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 OceanBay Hotel</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
